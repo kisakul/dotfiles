@@ -1,2 +1,2 @@
 # dotfiles
-System and applications personal configuration files
+System and applications personal configuration files.
