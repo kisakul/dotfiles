@@ -1,0 +1,53 @@
+// Place your key bindings in this file to overwrite the defaults
+{
+    // Controls the font family.
+	// "editor.fontFamily": "Lucida Console",
+	// "editor.fontFamily": "Monaco",
+	// "editor.fontFamily": "Menlo",
+	// "editor.fontFamily": "Roboto Mono",
+	"editor.fontFamily": "Roboto Mono Light",
+	// "editor.fontFamily": "Roboto Mono Thin",
+	// "editor.fontFamily": "DejaVu Sans Mono",
+
+	// Controls the font size.
+	"editor.fontSize": 22,
+
+	"editor.rulers": [130],
+
+	// Enable/Disable ActiveFileInStatusBar
+	"ActiveFileInStatusBar.enable": true,
+	// Show fullpath or relative path in status bar.
+	"ActiveFileInStatusBar.fullpath": true,
+	// Reveal the active file in the file system.
+    "ActiveFileInStatusBar.revealFile": true,
+    "files.autoSave": "afterDelay",
+
+	// When enabled, will trim trailing whitespace when you save a file.
+    "files.trimTrailingWhitespace": true,
+
+	// Controls whether the editor should render indent guides
+	"editor.renderIndentGuides": true,
+
+	// List of tags, comma separated, that shouldn't be reformatted. 'null' defaults to all tags listed at https://www.w3.org/TR/html5/dom.html#phrasing-content.
+	"html.format.unformatted": "null",
+
+	// Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/*.compiled.js": true,
+        "**/*.compiled.js.map": true,
+        "**/*.bundle.js": true,
+        "**/*.bundle.js.map": true,
+        "**/target/**/*": true,
+        "**/.tmp/**/*": true,
+        "**/src/vendor/**/*": true
+    }
+,
+"window.zoomLevel": 0,
+"workbench.sideBar.location": "left",
+"window.showFullPath": true,
+"editor.renderLineHighlight": "all"
+}

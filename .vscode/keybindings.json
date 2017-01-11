@@ -1,12 +1,55 @@
 // Place your key bindings in this file to overwrite the defaults
-[
-    {
-        "key": "ctrl+shift+a",
-        "command": "workbench.action.showCommands"
-    },
-    {
-        "key": "ctrl+alt+down",
-        "command": "editor.action.copyLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    }
-]
+[{
+	"key": "ctrl+shift+r",
+	"command": "workbench.action.quickOpen"
+}, {
+	"key": "ctrl+d",
+	"command": "editor.action.deleteLines",
+	"when": "editorTextFocus"
+}, {
+	"key": "ctrl+shift+k",
+	"command": "editor.action.addSelectionToNextFindMatch",
+	"when": "editorFocus"
+}, {
+	"key": "ctrl+shift+a",
+	"command": "workbench.action.showCommands"
+}, {
+	"key": "ctrl+shift+\\",
+	"command": "workbench.action.terminal.toggleTerminal"
+}, {
+	"key": "alt+q",
+	"command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+}, {
+	"key": "ctrl+alt+down",
+	"command": "editor.action.copyLinesDownAction",
+	"when": "editorTextFocus"
+}, {
+	"key": "ctrl+alt+up",
+	"command": "editor.action.copyLinesUpAction",
+	"when": "editorTextFocus"
+}, {
+	"key": "shift+alt+up",
+	"command": "editor.action.insertCursorAbove",
+	"when": "editorTextFocus"
+}, {
+	"key": "shift+alt+down",
+	"command": "editor.action.insertCursorBelow",
+	"when": "editorTextFocus"
+}, {
+	"key": "ctrl+shift+/",
+	"command": "editor.action.blockComment",
+	"when": "editorTextFocus && !editorReadonly"
+}, {
+	"key": "ctrl+shift+b",
+	"command": "workbench.action.tasks.runTask"
+}, {
+	"key": "ctrl+shift+;",
+	"command": "editor.action.jumpToBracket",
+	"when": "editorTextFocus"
+}, {
+	"key": "ctrl+shift+e",
+	"command": "workbench.action.showAllEditors"
+}, {
+	"key": "ctrl+shift+alt+;",
+	"command": "workbench.action.toggleZenMode"
+} ]
