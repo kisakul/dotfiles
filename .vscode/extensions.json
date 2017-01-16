@@ -27,6 +27,7 @@
 		"albert.TabOut",
 		"Tyriar.terminal-tabs",
 		"ryu1kn.text-marker",
-		"robertohuertasm.vscode-icons"
+		"robertohuertasm.vscode-icons",
+		"alefragnani.Bookmarks"
 	]
 }
